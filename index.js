@@ -3,10 +3,10 @@ var mysql = require('mysql');
 
 //DB Setup
 var db_config = {
-    host: "127.0.0.1",
-    user: "root",
-    password: "highlight",
-    database: "test",
+    host: "",
+    user: "",
+    password: "",
+    database: "",
   };
 var con;
 function handleDisconnect(){
